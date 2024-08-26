@@ -48,3 +48,23 @@
     color: #d35400;
 }
 /* header outer */
+
+/* Slider Outer */
+.slider-container{
+    height: 800px;
+    border: 1px solid red;
+    display: flex;
+}
+.slider-inner{
+    flex:1;
+    border: 1px solid red;
+}
+.left-slider{
+    display: flex;
+    align-items: center;
+}
+.left-side-content-wrapper{
+    border: 1px solid red;
+    padding: 20px;
+}
+/* Slider Outer */
