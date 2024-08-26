@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -62,9 +63,33 @@
 .left-slider{
     display: flex;
     align-items: center;
+    background-image: url('https://img.freepik.com/premium-photo/chic-confident-womans-shopping-adventure_687636-839.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
 }
 .left-side-content-wrapper{
     border: 1px solid red;
     padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.left-side-content-wrapper> h1{
+    font-size: 35px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.left-side-content-wrapper> h4{
+    color: white;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 62, 80,0.6);
+    position: absolute;
+    /* opacity: 0.2; */
 }
 /* Slider Outer */
