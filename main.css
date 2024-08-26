@@ -9,6 +9,8 @@
     height: 100px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px dotted rgba(44, 62, 80,1.0);
+    margin-bottom: 20px;
 }
 .header-inner{
     width: 70%;
@@ -105,5 +107,23 @@
     background-color: rgba(44, 62, 80,0.6);
     position: absolute;
     /* opacity: 0.2; */
+}
+
+.right-slider{
+    display: flex;
+    flex-direction: column;
+}
+.slider-right-wrapper{
+    flex: 1;
+    border: 1px solid red;
+    display: flex;
+}
+.sldier-right-slot{
+    flex:1;
+    border: 1px solid red;
+    background-image: url('https://img.freepik.com/free-photo/adult-woman-posing-with-shopping-bags_23-2148660623.jpg?t=st=1724690532~exp=1724694132~hmac=68c129419dcbda7d240c5a3e774097ada214a4ea5d0012f532ad4d266475af61&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 /* Slider Outer */
