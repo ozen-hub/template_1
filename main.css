@@ -70,13 +70,12 @@
     position: relative;
 }
 .left-side-content-wrapper{
-    border: 1px solid red;
     padding: 20px;
     position: relative;
     z-index: 2;
 }
 .left-side-content-wrapper> h1{
-    font-size: 35px;
+    font-size: 45px;
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -85,6 +84,21 @@
 .left-side-content-wrapper> h4{
     color: white;
 }
+
+.left-side-content-wrapper> button{
+    background: none;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 9px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-side-content-wrapper> button:hover{
+    background-color: white;
+    color: black;
+}
+
 .shadow{
     width: 100%;
     height: 100%;
