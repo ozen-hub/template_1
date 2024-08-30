@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -216,3 +217,47 @@
     cursor: pointer;
 }
 /* product Outer */
+
+/* About Outer */
+.about-container{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.about-inner{
+    height: auto;
+    border: 1px solid red;
+    min-height: 500px;
+    width: 70%;
+    display: flex;
+}
+.about{
+    flex: 1;
+    border: 1px solid red;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-left h1,p{
+    margin-bottom: 25px;
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-left button{
+    padding: 8px 15px;
+    background: none;
+    border: 1px solid black;
+}
+.about-left button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+/* About Outer */
