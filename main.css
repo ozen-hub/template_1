@@ -150,7 +150,6 @@
 .product-container{
     width: 100%;
     height: 600px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,36 +157,62 @@
 .product-inner{
     width: 80%;
     height: 500px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .product{
     width: 32%;
-    border: 1px solid red;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 .product-image-context{
-    border: 1px solid red;
     flex: 1;
     background-image: url('https://img.freepik.com/free-photo/men39s-clothes-hanger-generative-ai_169016-29035.jpg?t=st=1725030944~exp=1725034544~hmac=b3ebcf74c965381612e0b8313178dbb2ad69632bf192854ab0b39955e430eae5&w=740');
     background-repeat: no-repeat;
     background-size: cover;
+
+    position: relative;
+    overflow: hidden;
+}
+.product-image-context:hover .hidden-items-context{
+    bottom: 10px;
 }
 .product-detail-context{
-    border: 1px solid red;
     height: 100px;
     display: flex;
     flex-direction: column;
 }
 .name-rate-container, .price-container{
-    border: 1px solid red;
     padding: 5px 10px;
     display: flex;
     align-items: center;
     flex: 1;
     justify-content: space-between;
+}
+
+.hidden-items-context{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -65px;
+}
+.hidden-items-inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden-item{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 /* product Outer */
