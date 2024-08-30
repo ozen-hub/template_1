@@ -222,21 +222,18 @@
 .about-container{
     width: 100%;
     height: auto;
-    border: 1px solid red;
     min-height: 500px;
     display: flex;
     justify-content: center;
 }
 .about-inner{
     height: auto;
-    border: 1px solid red;
     min-height: 500px;
     width: 70%;
     display: flex;
 }
 .about{
     flex: 1;
-    border: 1px solid red;
 }
 .about-left{
     display: flex;
@@ -261,3 +258,40 @@
     color: white;
 }
 /* About Outer */
+/* Social Outer */
+.social-container{
+    width: 100%;
+    height: auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+.social-inner{
+    width: 75%;
+    height: auto;
+}
+.social-slider{
+    width: 100%;
+    height: 150px;
+
+    margin-top: 20px;
+    display: flex;
+}
+.social-elemet{
+    flex: 1;
+    background-image: url('https://img.freepik.com/free-photo/shot-happy-african-american-woman-chooses-new-clothes-showroom-picks-up-purple-turtleneck-hangers-stands-set-white-clothing-hangers_273609-32785.jpg?t=st=1725036135~exp=1725039735~hmac=d3db71416c215029bd427f2e00038368fbf590f752f0228eebafe33b31440d40&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.social-elemet:hover .social-shadow{
+    display: block;
+}
+.social-shadow{
+    background-color: rgba(44, 62, 80,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+/* Social Outer */
