@@ -179,12 +179,15 @@
 .product-detail-context{
     border: 1px solid red;
     height: 100px;
+    display: flex;
+    flex-direction: column;
 }
-.price-rate-container{
+.name-rate-container, .price-container{
     border: 1px solid red;
     padding: 5px 10px;
     display: flex;
     align-items: center;
+    flex: 1;
     justify-content: space-between;
 }
 /* product Outer */
